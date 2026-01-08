@@ -1,8 +1,4 @@
-
-
-
-
-@media screen and (max-width: 1400px){
+/* @media screen and (max-width: 1400px){
     #profile{
         height: 83vh;
         margin-bottom: 6rem;
@@ -103,4 +99,114 @@
         text-align: justify;
     }
 
-    }
+    } */
+
+    /* @media screen and (max-width: 768px) {
+  #intro-section {
+    grid-template-columns: 1fr;
+  }
+
+  .left-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icons,
+  .details {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .programming-skills-list {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 12rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+} */
+
+
+/* =========================
+   Tablet & smaller
+   ========================= */
+@media screen and (max-width: 900px) {
+
+  /* Stack sidebar and content */
+  #intro-section {
+    grid-template-columns: 1fr;
+  }
+
+  /* Sidebar becomes top section */
+  .left-container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Center icons & menu */
+  .social-icons,
+  .details {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Fix theme toggle positioning */
+  .theme-toggle {
+    margin-left: 0;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================
+   Mobile
+   ========================= */
+@media screen and (max-width: 600px) {
+
+  /* Reduce profile image */
+  #left-pane-img {
+    width: 120px;
+  }
+
+  /* Buttons stack */
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 12rem;
+  }
+
+  /* Skills list wraps instead of overflowing */
+  .programming-skills-list {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .programming-skills-list li {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  /* Improve text readability */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}

@@ -32,8 +32,9 @@ body {
 #left-pane-img{
     border-radius: 50%;
     width: 150px;
-    height: 150px;
+    height: auto;
     object-fit: cover;
+    max-width: 100%;
 }
 
 #intro-section {
@@ -68,6 +69,7 @@ body {
     gap: 1rem;
     background-color: var(--sidebar-bg);
     padding: 1rem;
+    max-width: 100%;
 }
 
 .icon {

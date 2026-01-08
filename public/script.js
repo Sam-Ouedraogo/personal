@@ -10,11 +10,15 @@ document.querySelector('.github-icon')?.addEventListener('click', () => {
   });
 
 document.querySelector('.x-icon')?.addEventListener('click', () => {
-    window.open('https://x.com', '_blank');
+    window.open('https://x.com/Drago231231', '_blank');
   });
 
 document.querySelector('.about_me-icon')?.addEventListener('click', () => {
     window.open('./#about', '_self');
+  });
+
+document.querySelector('.email-icon')?.addEventListener('click', () => {
+    window.open('mailto:samwdrago@outlook.com');
   });
 
 document.querySelector('.portfolio-icon')?.addEventListener('click', () => {
