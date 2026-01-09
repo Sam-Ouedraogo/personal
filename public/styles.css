@@ -31,10 +31,11 @@ body {
 
 #left-pane-img{
     border-radius: 50%;
-    width: 150px;
+    width: 200px;
     height: auto;
     object-fit: cover;
     max-width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 #intro-section {
@@ -156,6 +157,12 @@ body, .left-container, button {
 
 .details li {
   cursor: pointer;
+}
+
+#browser-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
 /* .dark-theme {
